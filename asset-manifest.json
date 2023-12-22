@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79c38c3f.css",
+    "main.js": "/static/js/main.67522c71.js",
+    "static/js/787.56499001.chunk.js": "/static/js/787.56499001.chunk.js",
+    "static/media/AnandaKumarK-Resume.pdf": "/static/media/AnandaKumarK-Resume.27b64f8c0b7f6c70755e.pdf",
+    "static/media/ProfilePic.jpeg": "/static/media/ProfilePic.b9ef41f6bbbaf9d4954b.jpeg",
+    "static/media/github.png": "/static/media/github.92c3664cd0b870c9e954.png",
+    "static/media/git.png": "/static/media/git.91b21e24a99542fcc383.png",
+    "static/media/mongodb.png": "/static/media/mongodb.4ec588a4150ff660860f.png",
+    "static/media/ts.png": "/static/media/ts.6a3e28f1509422ae5ea4.png",
+    "index.html": "/index.html",
+    "main.79c38c3f.css.map": "/static/css/main.79c38c3f.css.map",
+    "main.67522c71.js.map": "/static/js/main.67522c71.js.map",
+    "787.56499001.chunk.js.map": "/static/js/787.56499001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79c38c3f.css",
+    "static/js/main.67522c71.js"
+  ]
+}
