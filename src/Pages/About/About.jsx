@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from '../../Assets/ProfilePic.jpeg'
-import AnandKumarKResume from '../../Assets/AnandaKumarK-Resume.pdf'
+import AnandKumarK from '../../Assets/AnandaKumarK.pdf'
 import style from "../../styles/about.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -52,7 +52,7 @@ export default function About() {
             A passionate Full Stack Web Developer with strong
             problem-solving abilities, proficient in React Js, Mongo DB,
             Express Js Next Js, Typescript and Chakra Ui CSS keen to learn
-            new technologies.
+            new technologies .
           </p>
           <p id="user-detail-intro">
             Looking forward to starting career in a fast growing startup driven by technology. I am committed to delivering excellence and contributing to the continued growth and success of innovative web applications.
@@ -64,12 +64,11 @@ export default function About() {
               id="resume-button-2"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1E6sbkULzsH-r3KYCA3CnIfa001Z3DVoU/view?usp=sharing",
-                  "blank"
+                  "https://drive.google.com/file/d/1FoG_0wM_EeSrPdZGL6Yr7gVCYLZDUFwl/view?usp=sharing"
                 );
               }}
             >
-              <a href={AnandKumarKResume} download="Ananad-Kumar-K-Resume" id="resume-link-2" className="nav-link resume" >
+              <a href={AnandKumarK} download="Ananad-Kumar-K" id="resume-link-2" className="nav-link resume" >
                 Resume
               </a>
             </button>

@@ -7,7 +7,7 @@ import {
   useColorMode,
   Text,
 } from "@chakra-ui/react";
-import AnandKumarKResume from '../Assets/AnandaKumarK-Resume.pdf'
+import AnandKumarK from '../Assets/AnandaKumarK.pdf'
 import { Link } from "react-scroll";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import SideDrawerNavbar from "./SideDrawerNavbar";
@@ -203,8 +203,7 @@ export default function Navbar() {
                 }}
                 onClick={()=>{
                   window.open(
-                    "https://drive.google.com/file/d/1E6sbkULzsH-r3KYCA3CnIfa001Z3DVoU/view?usp=sharing",
-                    "blank"
+                    "https://drive.google.com/file/d/1FoG_0wM_EeSrPdZGL6Yr7gVCYLZDUFwl/view?usp=sharing"
                   );
                 }}
                 fontSize="18px"
@@ -214,8 +213,8 @@ export default function Navbar() {
                 <a
                   className="nav-link resume"
                   id="resume-button-1"
-                  href={AnandKumarKResume}
-                  download='Anand-Kumar-K-Resume'
+                  href={AnandKumarK}
+                  download='Anand-Kumar-K'
                   px={2}
                   py={1}
                   rounded={"md"}
