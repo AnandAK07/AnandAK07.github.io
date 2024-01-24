@@ -23,20 +23,22 @@ export default function Skills() {
   return (
     <div id="skills">
       <div id="Skills" className={style.outer_box}>
-      
-          <h1 className={style.main_heading}>Technical Skills</h1>
+
+        <h1 className={style.main_heading}>Technical Skills</h1>
 
 
-        <div className={style.main_box}>
-          <div>
+        <div className={style.main_box} >
+          <div style={{
+            border: '1px solid black', borderRadius: '1rem'
+          }}>
             <h1>Languages</h1>
-            <div className={style.language_logo}>
+            <div className={style.language_logo} >
               <div data-aos="flip-left" className="skills-card">
-                <img src={js} alt="JavaScript" className="skills-card-img"/>
+                <img src={js} alt="JavaScript" className="skills-card-img" />
                 <h3 className="skills-card-name">JavaScript</h3>
               </div>
               <div data-aos="flip-left" style={{ width: "40%" }} className="skills-card">
-                <img src={ts} alt="TypeScript" className="skills-card-img"/>
+                <img src={ts} alt="TypeScript" className="skills-card-img" />
                 <h3 className="skills-card-name">TypeScript</h3>
               </div>
             </div>
@@ -45,30 +47,32 @@ export default function Skills() {
                 width: "90%",
                 margin: "auto",
                 textAlign: "center",
-                marginTop: "30%",
+                
               }}>
               My favorite languages for Development
             </p>
           </div>
 
-          <div className={style.frontend}>
+          <div className={style.frontend} style={{
+            border: '1px solid black', borderRadius: '1rem'
+          }}>
             <h1>Front-End</h1>
             <div className={style.frontend_logo}>
               {" "}
               <div data-aos="flip-left" className="skills-card">
-                <img src={html} alt="html" className="skills-card-img"/>
+                <img src={html} alt="html" className="skills-card-img" />
                 <h3 className="skills-card-name">HTML</h3>
               </div>
-              <div data-aos="flip-left"  className="skills-card">
-                <img src={css} alt="css" className="skills-card-img"/>
+              <div data-aos="flip-left" className="skills-card">
+                <img src={css} alt="css" className="skills-card-img" />
                 <h3 className="skills-card-name">CSS</h3>
               </div>
               <div data-aos="flip-left" className="skills-card">
-                <img src={react} alt="React" className="skills-card-img"/>
+                <img src={react} alt="React" className="skills-card-img" />
                 <h3 className="skills-card-name">React</h3>
               </div>
               <div data-aos="flip-left" className="skills-card">
-                <img src={node} alt="Next.js" className="skills-card-img"/>
+                <img src={node} alt="Next.js" className="skills-card-img" />
                 <h3 className="skills-card-name">Node.js</h3>
               </div>
             </div>
@@ -84,15 +88,17 @@ export default function Skills() {
             </p>
           </div>
 
-          <div className={style.backend}>
+          <div className={style.backend} style={{
+            border: '1px solid black', borderRadius: '1rem'
+          }}>
             <h1>Back-End</h1>
             <div className={style.backend_logo}>
               <div data-aos="flip-left" className="skills-card">
-                <img src={ex} alt="express"  className="skills-card-img"/>
+                <img src={ex} alt="express" className="skills-card-img" />
                 <h3 className="skills-card-name">Express</h3>
               </div>
               <div data-aos="flip-left" className="skills-card">
-                <img src={mongodb} alt="mongodb"  className="skills-card-img"/>
+                <img src={mongodb} alt="mongodb" className="skills-card-img" />
                 <h3 className="skills-card-name">MongoDB</h3>
               </div>
             </div>
@@ -108,15 +114,17 @@ export default function Skills() {
             </p>
           </div>
 
-          <div className={style.tools}>
+          <div className={style.tools} style={{
+            border: '1px solid black', borderRadius: '1rem'
+          }}>
             <h1>Tools</h1>
             <div className={style.tools_logo}>
               <div data-aos="flip-left" className="skills-card">
-                <img src={git} alt="git" className="skills-card-img"/>
+                <img src={git} alt="git" className="skills-card-img" />
                 <h3 className="skills-card-name">Git</h3>
               </div>
               <div data-aos="flip-left" className="skills-card">
-                <img src={github} alt="github" className="skills-card-img"/>
+                <img src={github} alt="github" className="skills-card-img" />
                 <h3 className="skills-card-name">Github</h3>
               </div>
             </div>

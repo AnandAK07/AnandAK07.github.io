@@ -15,7 +15,7 @@ export default function GithubStats() {
   return (
     <>
       {" "}
-      <div className={style.outer_box}>
+      <div className={style.outer_box} >
 
         <h1 className={style.main_heading}>My Statistics</h1>
 

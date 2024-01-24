@@ -59,19 +59,7 @@ export default function About() {
           </p>
 
           <div style={{ "display": "flex", flexWrap: "nowrap", justifyContent: "center", alignItems: "center", margin: '10px' }}>
-            <button
-              className={style.ResumeBtn}
-              id="resume-button-2"
-              onClick={() => {
-                window.open(
-                  "https://drive.google.com/file/d/1FoG_0wM_EeSrPdZGL6Yr7gVCYLZDUFwl/view?usp=sharing"
-                );
-              }}
-            >
-              <a href={AnandKumarK} download="Ananad-Kumar-K" id="resume-link-2" className="nav-link resume" >
-                Resume
-              </a>
-            </button>
+            
             {/* </button> */}
             {/*  */}
             <a
@@ -91,6 +79,19 @@ export default function About() {
             >
               <FaLinkedinIn />
             </a>
+            <button
+              className={style.ResumeBtn}
+              id="resume-button-2"
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1uTWhsMfZ8LXF0QhTHioufD8DCAaL1Rku/view?usp=sharing", '_blank'
+                );
+              }}
+            >
+              <a href={AnandKumarK} download="Ananad Kumar K" id="resume-link-2" className="nav-link resume" >
+                Resume
+              </a>
+            </button>
           </div>
         </div>
       </div>

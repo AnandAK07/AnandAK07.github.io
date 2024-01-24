@@ -203,7 +203,7 @@ export default function Navbar() {
                 }}
                 onClick={()=>{
                   window.open(
-                    "https://drive.google.com/file/d/1FoG_0wM_EeSrPdZGL6Yr7gVCYLZDUFwl/view?usp=sharing"
+                    "https://drive.google.com/file/d/1uTWhsMfZ8LXF0QhTHioufD8DCAaL1Rku/view?usp=sharing"
                   );
                 }}
                 fontSize="18px"
@@ -214,7 +214,7 @@ export default function Navbar() {
                   className="nav-link resume"
                   id="resume-button-1"
                   href={AnandKumarK}
-                  download='Anand-Kumar-K'
+                  download='Anand Kumar K'
                   px={2}
                   py={1}
                   rounded={"md"}

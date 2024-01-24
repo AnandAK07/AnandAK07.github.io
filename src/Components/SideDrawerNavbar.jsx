@@ -97,7 +97,12 @@ function SideDrawerNavbar() {
                           }}
                           as={MdOutlineContactPage}
                         />
-                        <a onClick={() => {
+                        <button onClick={() => {
+                          window.open("https://drive.google.com/file/d/1uTWhsMfZ8LXF0QhTHioufD8DCAaL1Rku/view?usp=sharing", '_blank');
+                        }}>
+                          Resume
+                        </button>
+                        {/* <a onClick={() => {
                           window.open(
                             "https://drive.google.com/file/d/1FoG_0wM_EeSrPdZGL6Yr7gVCYLZDUFwl/view?usp=sharing"
                           );
@@ -116,7 +121,7 @@ function SideDrawerNavbar() {
                           >
                             Resume
                           </a>
-                        </a>
+                        </a> */}
                       </Flex>
                     ) : (
                       <NavItem

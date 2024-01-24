@@ -2,7 +2,6 @@
     border: 0px solid red;
     width: 90%;
     margin: auto;
-    margin-top: 30px;
   }
   .main_heading {
     border: 0px solid blue;
@@ -32,6 +31,9 @@
   
   /* media  */
   @media (max-width: 720px) {
+    .outer_box {   
+    margin-top: 150px;
+   }
     .flex_box {
       flex-direction: column;
       justify-content: center;
