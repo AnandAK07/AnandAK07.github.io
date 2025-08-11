@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a31d712.css",
-    "main.js": "/static/js/main.864478b2.js",
+    "main.css": "/static/css/main.244c79db.css",
+    "main.js": "/static/js/main.bc04bd30.js",
     "static/js/787.56499001.chunk.js": "/static/js/787.56499001.chunk.js",
-    "static/media/AnandaKumarK.pdf": "/static/media/AnandaKumarK.ac434929db97eba9131b.pdf",
     "static/media/ProfilePic.jpeg": "/static/media/ProfilePic.2cab06582ee0719b0301.jpeg",
-    "static/media/figma.png": "/static/media/figma.0b596e87ef1f6aac8a04.png",
+    "static/media/AnandaKumarK.pdf": "/static/media/AnandaKumarK.b3e4d2dca374fc233b56.pdf",
     "static/media/github.png": "/static/media/github.92c3664cd0b870c9e954.png",
     "static/media/git.png": "/static/media/git.91b21e24a99542fcc383.png",
-    "static/media/java.jpg": "/static/media/java.f8047a9a01c547fae4bd.jpg",
     "static/media/mongodb.png": "/static/media/mongodb.4ec588a4150ff660860f.png",
     "static/media/ts.png": "/static/media/ts.6a3e28f1509422ae5ea4.png",
     "index.html": "/index.html",
-    "main.7a31d712.css.map": "/static/css/main.7a31d712.css.map",
-    "main.864478b2.js.map": "/static/js/main.864478b2.js.map",
+    "main.244c79db.css.map": "/static/css/main.244c79db.css.map",
+    "main.bc04bd30.js.map": "/static/js/main.bc04bd30.js.map",
     "787.56499001.chunk.js.map": "/static/js/787.56499001.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a31d712.css",
-    "static/js/main.864478b2.js"
+    "static/css/main.244c79db.css",
+    "static/js/main.bc04bd30.js"
   ]
 }
