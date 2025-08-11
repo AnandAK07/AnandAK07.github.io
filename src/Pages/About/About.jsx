@@ -84,11 +84,11 @@ export default function About() {
               id="resume-button-2"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1uTWhsMfZ8LXF0QhTHioufD8DCAaL1Rku/view?usp=sharing", '_blank'
+                  "https://drive.google.com/file/d/1aWx0vHv9p1nvGLXWeyY55-bX6pNgiwGd/view?usp=sharing", '_blank'
                 );
               }}
             >
-              <a href={AnandKumarK} download="Ananad Kumar K" id="resume-link-2" className="nav-link resume" >
+              <a href={AnandKumarK} download="Anand Kumar K" id="resume-link-2" className="nav-link resume" >
                 Resume
               </a>
             </button>

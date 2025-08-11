@@ -47,7 +47,7 @@ export default function Skills() {
                 width: "90%",
                 margin: "auto",
                 textAlign: "center",
-                
+                marginTop: "30%",
               }}>
               My favorite languages for Development
             </p>

@@ -203,7 +203,7 @@ export default function Navbar() {
                 }}
                 onClick={()=>{
                   window.open(
-                    "https://drive.google.com/file/d/1uTWhsMfZ8LXF0QhTHioufD8DCAaL1Rku/view?usp=sharing"
+                    "https://drive.google.com/file/d/1aWx0vHv9p1nvGLXWeyY55-bX6pNgiwGd/view?usp=sharing"
                   );
                 }}
                 fontSize="18px"
