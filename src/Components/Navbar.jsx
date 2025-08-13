@@ -194,6 +194,7 @@ export default function Navbar() {
               {/* 
 // Resume Link */}
               <Text
+                cursor={"pointer"}
                 _hover={{
                   color: "white",
                   bg: 'black',
@@ -205,12 +206,20 @@ export default function Navbar() {
                   window.open(
                     "https://drive.google.com/file/d/1aWx0vHv9p1nvGLXWeyY55-bX6pNgiwGd/view?usp=sharing"
                   );
+
+                  // Trigger local PDF download
+                  const link = document.createElement('a');
+                  link.href = AnandKumarK;
+                  link.download = 'Anand Kumar K.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
                 }}
                 fontSize="18px"
                 fontWeight="semibold"
                 className="nav-link resume"
               >
-                <a
+                {/* <a
                   className="nav-link resume"
                   id="resume-button-1"
                   href={AnandKumarK}
@@ -220,9 +229,9 @@ export default function Navbar() {
                   rounded={"md"}
                   _hover={{
                   }}
-                >
+                > */}
                   Resume
-                </a>
+                {/* </a> */}
               </Text>
             </HStack>
           </HStack>

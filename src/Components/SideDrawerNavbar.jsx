@@ -106,8 +106,15 @@ function SideDrawerNavbar() {
                           window.open(
                             "https://drive.google.com/file/d/1aWx0vHv9p1nvGLXWeyY55-bX6pNgiwGd/view?usp=sharing"
                           );
+                            // Trigger local PDF download
+                            const link = document.createElement("a");
+                            link.href = AnandKumarK;
+                            link.download = "Anand-Kumar-K.pdf";
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
                         }}>
-                          <a
+                          {/* <a
                             className="nav-link resume"
                             id="resume-button-1"
                             href={AnandKumarK}
@@ -118,9 +125,9 @@ function SideDrawerNavbar() {
                               textDecoration: "none",
                             }}
 
-                          >
+                          > */}
                             Resume
-                          </a>
+                          {/* </a> */}
                         </a>
                       </Flex>
                     ) : (

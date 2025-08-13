@@ -86,11 +86,19 @@ export default function About() {
                 window.open(
                   "https://drive.google.com/file/d/1aWx0vHv9p1nvGLXWeyY55-bX6pNgiwGd/view?usp=sharing", '_blank'
                 );
+
+                // Trigger local PDF download
+                const link = document.createElement("a");
+                link.href = AnandKumarK;
+                link.download = "Anand Kumar K.pdf";
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
               }}
             >
-              <a href={AnandKumarK} download="Anand Kumar K" id="resume-link-2" className="nav-link resume" >
+              {/* <a href={AnandKumarK} download="Anand Kumar K" id="resume-link-2" className="nav-link resume" > */}
                 Resume
-              </a>
+              {/* </a> */}
             </button>
           </div>
         </div>
